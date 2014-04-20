@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace Arcadia
 {
-    bool boule;
+    
 
 
     public enum GameState

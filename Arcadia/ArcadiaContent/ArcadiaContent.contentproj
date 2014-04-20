@@ -185,8 +185,18 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="SpaceInvaders\ship.png">
-      <Name>ship</Name>
+    <Compile Include="SpaceInvaders\ennemi1.png">
+      <Name>ennemi1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="SpaceInvaders\ennemi2.png">
+      <Name>ennemi2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="SpaceInvaders\ennemi3.png">
+      <Name>ennemi3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

@@ -201,3 +201,7 @@ C:\Users\JahMan\Desktop\Bullshit_Arcadia\Arcadia\Arcadia\Arcadia\obj\x86\Debug\M
 C:\Users\JahMan\Desktop\Bullshit_Arcadia\Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\Pacman\fantome_1.xnb
 C:\Users\JahMan\Desktop\Bullshit_Arcadia\Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\Pacman\fantome_2.xnb
 C:\Users\JahMan\Desktop\Bullshit_Arcadia\Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\Pacman\fantome_3.xnb
+C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Arcadia.csprojResolveAssemblyReference.cache
+C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Arcadia.exe
+C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Arcadia.pdb

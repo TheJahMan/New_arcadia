@@ -62,7 +62,7 @@ namespace Arcadia.Space_Invaders
         }
         public virtual void Draw(SpriteBatch spriteBatch, GameTime gameTime)
         {
-            spriteBatch
+            
         }
     }
 }
