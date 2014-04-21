@@ -60,9 +60,9 @@ namespace Arcadia.Space_Invaders
             if (ship_action == Ship_action.left && this.ship_position.X > 0 )
                 this.ship_position.X = ship_position.X - 10;
         }
-        public virtual void Draw(SpriteBatch spriteBatch, GameTime gameTime)
+        public virtual void Draw(SpriteBatch spriteBatch, GameTime gameTime/*, Texture2D ship, Vector2 pos*/)
         {
-            
+            spriteBatch.Draw(ship,ship_position, Microsoft.Xna.Framework.Color.White);
         }
     }
 }

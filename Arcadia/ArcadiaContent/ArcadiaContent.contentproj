@@ -184,8 +184,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="SpaceInvaders\maison.png">
       <Name>maison</Name>
+=======
+    <Compile Include="SpaceInvaders\ship.png">
+      <Name>ship</Name>
+>>>>>>> de066cdcb15fa6b5287d32ccdfb293abacd26d82
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

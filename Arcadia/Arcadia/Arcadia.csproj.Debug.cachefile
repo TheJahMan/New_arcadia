@@ -22,9 +22,29 @@ Content\Pacman\grossebouelette.xnb
 Content\Pacman\fantome_1.xnb
 Content\Pacman\fantome_2.xnb
 Content\Pacman\fantome_3.xnb
+<<<<<<< HEAD
+Content\SpaceInvaders\ennemi1.xnb
+Content\SpaceInvaders\ennemi2.xnb
+Content\SpaceInvaders\ennemi3.xnb
+Content\LangueFont.xnb
+Content\MaPolice.xnb
+Content\SpaceInvaders\ship.xnb
+=======
+<<<<<<< HEAD
+Content\SpaceInvaders\ennemi1.xnb
+Content\SpaceInvaders\ennemi2.xnb
+Content\SpaceInvaders\ennemi3.xnb
+Content\LangueFont.xnb
+Content\MaPolice.xnb
+=======
 Content\LangueFont.xnb
 Content\MaPolice.xnb
 Content\SpaceInvaders\ennemi1.xnb
 Content\SpaceInvaders\ennemi2.xnb
 Content\SpaceInvaders\ennemi3.xnb
+<<<<<<< HEAD
 Content\SpaceInvaders\maison.xnb
+=======
+>>>>>>> 69b3f4699b7b8f927cb68e61552c9c1195b9024a
+>>>>>>> 3fc8465542227d36da9a6c98995b2821cbdaa9f2
+>>>>>>> de066cdcb15fa6b5287d32ccdfb293abacd26d82

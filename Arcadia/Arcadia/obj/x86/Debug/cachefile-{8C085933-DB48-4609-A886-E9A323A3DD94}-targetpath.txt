@@ -22,9 +22,13 @@ Content\Pacman\grossebouelette.xnb
 Content\Pacman\fantome_1.xnb
 Content\Pacman\fantome_2.xnb
 Content\Pacman\fantome_3.xnb
-Content\LangueFont.xnb
-Content\MaPolice.xnb
+Content\SpaceInvaders\ship.xnb
 Content\SpaceInvaders\ennemi1.xnb
 Content\SpaceInvaders\ennemi2.xnb
 Content\SpaceInvaders\ennemi3.xnb
+<<<<<<< HEAD
 Content\SpaceInvaders\maison.xnb
+=======
+Content\LangueFont.xnb
+Content\MaPolice.xnb
+>>>>>>> de066cdcb15fa6b5287d32ccdfb293abacd26d82
