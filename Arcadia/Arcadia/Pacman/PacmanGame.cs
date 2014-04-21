@@ -166,7 +166,7 @@ namespace Arcadia
             // deroulement de jeu quand normal 
             if (pacman_state == PacmanState.game)
             {
-                if (nb_boulette  == 0) 
+                if (nb_boulette  == 0 || keyboardState.IsKeyUp(Key.W)) 
                 {
                     pacman_state = PacmanState.finish;
                     score_transfere = life * 200;
