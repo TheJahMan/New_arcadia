@@ -20,8 +20,7 @@ namespace Arcadia.Space_Invaders
         int encrage_x_enn = 210;
         int encrage_y_enn = 100;
 
-        int encrage_x_mais = 210;
-        int encrage_y_mais = 300;
+        
 
         
         
@@ -81,18 +80,46 @@ namespace Arcadia.Space_Invaders
             
             }
 
+            int encrage_x_mais = 210;
+            int encrage_y_mais = 300;
+            
             for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    mais_tableau1[i, j].Draw(spritebatch, mais_tableau1[i, j].mais_public, encrage_x_mais + i* 8, encrage_y_mais + j*8);
-                    
-                    mais_tableau2[i, j].Draw(spritebatch, mais_tableau2[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
-
-                    mais_tableau3[i, j].Draw(spritebatch, mais_tableau3[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
+                    mais_tableau1[i, j].Draw(spritebatch, mais_tableau1[i, j].mais_public, encrage_x_mais + i* 5, encrage_y_mais + j*5);
+                    //mais_tableau2[i, j].Draw(spritebatch, mais_tableau2[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
+                    //mais_tableau3[i, j].Draw(spritebatch, mais_tableau3[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
  
                 }
             }
+
+            encrage_x_mais = encrage_x_mais + 128;
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    //mais_tableau1[i, j].Draw(spritebatch, mais_tableau1[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
+                    mais_tableau2[i, j].Draw(spritebatch, mais_tableau2[i, j].mais_public, encrage_x_mais + i * 5, encrage_y_mais + j * 5);
+                    //mais_tableau3[i, j].Draw(spritebatch, mais_tableau3[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
+
+                }
+            }
+
+            encrage_x_mais = encrage_x_mais + 128;
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    //mais_tableau1[i, j].Draw(spritebatch, mais_tableau1[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
+                    //mais_tableau2[i, j].Draw(spritebatch, mais_tableau2[i, j].mais_public, encrage_x_mais + i * 8, encrage_y_mais + j * 8);
+                    mais_tableau3[i, j].Draw(spritebatch, mais_tableau3[i, j].mais_public, encrage_x_mais + i * 5, encrage_y_mais + j * 5);
+
+                }
+            }
+
         }
 
 
