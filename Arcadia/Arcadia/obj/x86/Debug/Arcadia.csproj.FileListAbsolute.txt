@@ -276,7 +276,6 @@ C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.pdb
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Arcadia.exe
-<<<<<<< HEAD
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\Menu\Arcadia Logo.xnb
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\mur_c.xnb
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\mur_h.xnb
@@ -310,6 +309,5 @@ C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.exe
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.pdb
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Arcadia.pdb
 C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\ship.xnb
-=======
 >>>>>>> 69b3f4699b7b8f927cb68e61552c9c1195b9024a
 >>>>>>> 3fc8465542227d36da9a6c98995b2821cbdaa9f2

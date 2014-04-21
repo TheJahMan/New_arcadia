@@ -10,12 +10,15 @@ namespace Arcadia.Space_Invaders
 {
     public class SpaceInvaders_game
     {
-
+        //declaration & pos ennemi
         private ennemi[,] ennemi_tableau;
         int encrage_x = 0;
         int encrage_y = 0;
-        
 
+        //declaration player
+        Player ship = new Player();
+        
+        
         public virtual void Initialize(ContentManager content) 
         {
             ennemi_tableau = new ennemi[10, 4];
@@ -36,9 +39,14 @@ namespace Arcadia.Space_Invaders
                 ennemi_tableau[x, 3].LoadContent(content, "SpaceInvaders/ennemi1");
 
             }
-            
 
         }
+            public virtual void LoadContent(ContentManager content)
+            {
+                ship.LoadContent(content);
+            }
+
+       
         public virtual void Draw(SpriteBatch spritebatch, GameTime gametime, int pos_x, int pos_y)
         {
             for (int i = 0; i < 10; i++)
@@ -49,6 +57,7 @@ namespace Arcadia.Space_Invaders
                 }
             
             }
+            ship.Draw(spritebatch, gametime);
         }
 
 
