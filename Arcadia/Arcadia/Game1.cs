@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using System.Threading;
+using Arcadia.Space_Invaders;
 
 namespace Arcadia
 {
@@ -22,6 +23,7 @@ namespace Arcadia
         Loading,
         Playing1,
         Playing2,
+        Playing3,
         Paused,
         Exit,
         
@@ -54,7 +56,8 @@ namespace Arcadia
         // déclaration des classes
         private PacmanGame pacman;
         private Menu menu;
-
+        private SpaceInvaders_game space_invaders;
+        
         // sprite font 
         private SpriteFont sprite_font;
 
@@ -94,6 +97,9 @@ namespace Arcadia
             // initialisation pacman 
             pacman = new PacmanGame();
 
+            // init space invaders
+            space_invaders = new SpaceInvaders_game();
+
             /*old_mouseState = Mouse.GetState();
             old_kerboardState = Keyboard.GetState();*/
 
@@ -105,6 +111,7 @@ namespace Arcadia
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
 
             // chargement du menu
             menu.LoadContent(Content);
@@ -120,6 +127,9 @@ namespace Arcadia
 
             // chargment du pacman
             pacman.LoadContent(Content);
+
+            // chargement du space invaders
+            
 
             
 
@@ -155,11 +165,14 @@ namespace Arcadia
 
                 if (menu.Udapte(gameTime, mouseState, gameState,old_mouseState) == 1)
                 {
-                    gameState = GameState.Playing1;
+                    gameState = GameState.Playing3;
 
                     // initialisation du pacman
                     pacman.Initialize("map.txt", "map.bmp",1);
                     score = 0;
+
+                    // initialisation space invaders
+                    space_invaders.Initialize(Content);
 
                 }
 
@@ -195,6 +208,8 @@ namespace Arcadia
                 if (pacman.check_level_next)
                     gameState = GameState.StartMenu;
             }
+           // else if (gameState == GameState.Playing3) 
+            //{ }
               
             base.Update(gameTime);
 
@@ -226,6 +241,10 @@ namespace Arcadia
                 pacman.Draw(spriteBatch, gameTime, ref score,2);
                // GraphicsDevice.Clear(Color.White);
 
+            }
+            else if (gameState == GameState.Playing3)
+            {
+                space_invaders.Draw(spriteBatch, gameTime, 0, 0);
             }
 
             spriteBatch.End();

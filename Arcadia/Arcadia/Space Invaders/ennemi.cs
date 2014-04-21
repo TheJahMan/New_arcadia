@@ -16,10 +16,9 @@ namespace Arcadia.Space_Invaders
     class ennemi
     {
         private Texture2D enn;
-
         public Texture2D enn_public { get { return enn; } }
-       
         bool is_alive;
+
         
         public virtual void Initialize()
         {
@@ -34,9 +33,9 @@ namespace Arcadia.Space_Invaders
 
         public virtual void Draw(SpriteBatch spriteBatch,Texture2D ennemi, int pos_x, int pos_y)
         {
-            spriteBatch.Begin();
+            //spriteBatch.Begin();
             spriteBatch.Draw(enn, new Vector2(pos_x,pos_y), Microsoft.Xna.Framework.Color.White);
-            spriteBatch.End();
+            //spriteBatch.End();
         }
 
 }
