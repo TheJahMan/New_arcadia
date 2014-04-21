@@ -236,3 +236,6 @@ C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\e
 C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\ennemi3.xnb
 C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.exe
 C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.pdb
+C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\obj\x86\Debug\Arcadia.exe
