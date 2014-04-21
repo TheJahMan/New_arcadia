@@ -12,13 +12,23 @@ namespace Arcadia.Space_Invaders
     {
 
         private ennemi[,] ennemi_tableau;
-        int encrage_x = 0;
-        int encrage_y = 0;
+        private maison[,] mais_tableau1;
+        private maison[,] mais_tableau2;
+        private maison[,] mais_tableau3;
+
+
+        int encrage_x_enn = 210;
+        int encrage_y_enn = 100;
+
+        
         
 
         public virtual void Initialize(ContentManager content) 
         {
             ennemi_tableau = new ennemi[10, 4];
+            mais_tableau1 = new maison[4, 3];
+            mais_tableau2 = new maison[4, 3];
+            mais_tableau3 = new maison[4, 3];
             
             for (int x = 0; x < 10; x++)
             {
@@ -36,6 +46,24 @@ namespace Arcadia.Space_Invaders
                 ennemi_tableau[x, 3].LoadContent(content, "SpaceInvaders/ennemi1");
 
             }
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    mais_tableau1[i, j] = new maison();
+                    mais_tableau1[i, j].Initialize();
+                    mais_tableau1[i, j].LoadContent(content);
+
+                    mais_tableau2[i, j] = new maison();
+                    mais_tableau2[i, j].Initialize();
+                    mais_tableau2[i, j].LoadContent(content);
+
+                    mais_tableau3[i, j] = new maison();
+                    mais_tableau3[i, j].Initialize();
+                    mais_tableau3[i, j].LoadContent(content);
+                }
+            }
             
 
         }
@@ -45,9 +73,18 @@ namespace Arcadia.Space_Invaders
             {
                 for (int j = 0; j < 4; j++) 
                 {
-                    ennemi_tableau[i, j].Draw(spritebatch, ennemi_tableau[i, j].enn_public, encrage_x + i * 28, encrage_y + j * 28);
+                    ennemi_tableau[i, j].Draw(spritebatch, ennemi_tableau[i, j].enn_public, encrage_x_enn + i * 28, encrage_y_enn + j * 28);
                 }
             
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    mais_tableau1[i,j].Draw(spritebatch, mais_tableau1[i,j].mais_public,
+ 
+                }
             }
         }
 

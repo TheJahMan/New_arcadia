@@ -27,3 +27,4 @@ Content\MaPolice.xnb
 Content\SpaceInvaders\ennemi1.xnb
 Content\SpaceInvaders\ennemi2.xnb
 Content\SpaceInvaders\ennemi3.xnb
+Content\SpaceInvaders\maison.xnb

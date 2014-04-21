@@ -119,6 +119,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Space Invaders\ennemi.cs" />
+    <Compile Include="Space Invaders\maison.cs" />
     <Compile Include="Space Invaders\Player.cs" />
     <Compile Include="Space Invaders\SpaceInvaders_game.cs" />
   </ItemGroup>

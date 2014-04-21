@@ -236,3 +236,4 @@ C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\e
 C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\ennemi3.xnb
 C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.exe
 C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Arcadia.pdb
+C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\maison.xnb

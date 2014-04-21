@@ -262,6 +262,15 @@
       <Output>C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\ennemi3.xnb</Output>
       <Time>2014-04-19T02:01:09.5691229+02:00</Time>
     </Item>
+    <Item>
+      <Source>SpaceInvaders\maison.png</Source>
+      <Name>SpaceInvaders\maison</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JERRY\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\maison.xnb</Output>
+      <Time>2014-04-21T15:14:11.7154619+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

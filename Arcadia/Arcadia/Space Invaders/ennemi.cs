@@ -17,12 +17,12 @@ namespace Arcadia.Space_Invaders
     {
         private Texture2D enn;
         public Texture2D enn_public { get { return enn; } }
-        bool is_alive;
+        bool is_alive_enn;
 
         
         public virtual void Initialize()
         {
-            is_alive = true;
+            is_alive_enn = true;
         }
         public virtual void LoadContent(ContentManager content, string type_enn)
         {
