@@ -1,4 +1,7 @@
 Content\Menu\Arcadia Logo.xnb
+Content\mur_c.xnb
+Content\mur_h.xnb
+Content\mur_v.xnb
 Content\Pacman\boulettejaune.xnb
 Content\Pacman\bouton rejouer.xnb
 Content\Menu\Bouton_exit.xnb
@@ -16,11 +19,11 @@ Content\Pacman\pacman2_u.xnb
 Content\Pacman\cadre.xnb
 Content\Pacman\pacman_invincible.xnb
 Content\Pacman\grossebouelette.xnb
-Content\mur_c.xnb
-Content\mur_h.xnb
-Content\mur_v.xnb
-Content\LangueFont.xnb
-Content\MaPolice.xnb
 Content\Pacman\fantome_1.xnb
 Content\Pacman\fantome_2.xnb
 Content\Pacman\fantome_3.xnb
+Content\LangueFont.xnb
+Content\MaPolice.xnb
+Content\SpaceInvaders\ennemi1.xnb
+Content\SpaceInvaders\ennemi2.xnb
+Content\SpaceInvaders\ennemi3.xnb

@@ -11,3 +11,4 @@ D:\Documents\Arcadia\Arcadia\ArcadiaContent\obj\x86\Debug\ArcadiaContent.content
 C:\Users\Petit\Desktop\Arcadia lvl2\Arcadia\ArcadiaContent\obj\x86\Debug\ArcadiaContent.contentprojResolveAssemblyReference.cache
 C:\Users\JahMan\Desktop\New_Arcadia\Arcadia\Arcadia\ArcadiaContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\JahMan\Desktop\Bullshit_Arcadia\Arcadia\Arcadia\ArcadiaContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\JERRY\New_Arcadia\Arcadia\ArcadiaContent\obj\x86\Debug\ArcadiaContent.contentprojResolveAssemblyReference.cache
