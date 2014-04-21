@@ -165,14 +165,13 @@ namespace Arcadia
 
                 if (menu.Udapte(gameTime, mouseState, gameState,old_mouseState) == 1)
                 {
-                    gameState = GameState.Playing3;
+                    gameState = GameState.Playing1;
 
                     // initialisation du pacman
                     pacman.Initialize("map.txt", "map.bmp",1);
                     score = 0;
 
-                    // initialisation space invaders
-                    space_invaders.Initialize(Content);
+                    
 
                 }
 
@@ -206,10 +205,17 @@ namespace Arcadia
                     gameState = GameState.StartMenu;
 
                 if (pacman.check_level_next)
-                    gameState = GameState.StartMenu;
+                {
+                    gameState = GameState.Playing3;
+
+                    // initialisation space invaders
+                    space_invaders.Initialize(Content);
+                }
             }
-           // else if (gameState == GameState.Playing3) 
-            //{ }
+           else if (gameState == GameState.Playing3) 
+            {
+                space_invaders.Update(gameTime);
+            }
               
             base.Update(gameTime);
 

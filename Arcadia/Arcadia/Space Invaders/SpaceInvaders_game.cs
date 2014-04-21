@@ -20,6 +20,9 @@ namespace Arcadia.Space_Invaders
         int encrage_x_enn = 210;
         int encrage_y_enn = 100;
 
+
+        double time;
+
         
 
         
@@ -31,6 +34,7 @@ namespace Arcadia.Space_Invaders
             mais_tableau1 = new maison[4, 3];
             mais_tableau2 = new maison[4, 3];
             mais_tableau3 = new maison[4, 3];
+            time = 0;
             
             for (int x = 0; x < 10; x++)
             {
@@ -69,6 +73,39 @@ namespace Arcadia.Space_Invaders
             
 
         }
+
+        public virtual void Update(GameTime gametime)
+        {
+
+            time += gametime.ElapsedGameTime.TotalMilliseconds;
+            if (time > 1000 && encrage_x_enn == 210 && encrage_y_enn == 100)
+            {
+                encrage_x_enn = encrage_x_enn + 28;
+                time = 0;
+            }
+            else
+                if (time > 1000 && encrage_x_enn == 238 && encrage_y_enn == 100)
+                {
+                    encrage_y_enn = encrage_y_enn + 28;
+                    time = 0;
+                }
+                else
+                    if (time > 1000 && encrage_x_enn == 238 && encrage_y_enn == 128)
+                    {
+                        encrage_x_enn = encrage_x_enn - 28;
+                        time = 0; 
+                    }
+                    else
+                        if (time > 1000 && encrage_x_enn == 210 && encrage_y_enn == 128)
+                        {
+                            encrage_y_enn = encrage_y_enn - 28;
+                            time = 0;
+                        }
+
+
+            
+ 
+        }
         public virtual void Draw(SpriteBatch spritebatch, GameTime gametime, int pos_x, int pos_y)
         {
             for (int i = 0; i < 10; i++)
@@ -94,7 +131,7 @@ namespace Arcadia.Space_Invaders
                 }
             }
 
-            encrage_x_mais = encrage_x_mais + 128;
+            encrage_x_mais = encrage_x_mais + 130;
 
             for (int i = 0; i < 4; i++)
             {
@@ -107,7 +144,7 @@ namespace Arcadia.Space_Invaders
                 }
             }
 
-            encrage_x_mais = encrage_x_mais + 128;
+            encrage_x_mais = encrage_x_mais + 130;
 
             for (int i = 0; i < 4; i++)
             {
