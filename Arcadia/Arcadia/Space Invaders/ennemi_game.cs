@@ -18,7 +18,7 @@ namespace Arcadia.Space_Invaders
         public ennemi[,] ennemi_tableau;
         
 
-        public virtual void Initialize(ContentManager content) // jai passé un contentmanager en parametre sinon ca passe pas ds le ennemi_tableau[x, ...].LoadContent
+        public virtual void Initialize(ContentManager content) 
         {
             ennemi_tableau = new ennemi[10, 4];
             
