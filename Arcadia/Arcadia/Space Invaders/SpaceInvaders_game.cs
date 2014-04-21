@@ -12,6 +12,8 @@ namespace Arcadia.Space_Invaders
     {
 
         private ennemi[,] ennemi_tableau;
+        int encrage_x = 0;
+        int encrage_y = 0;
         
 
         public virtual void Initialize(ContentManager content) 
@@ -39,38 +41,13 @@ namespace Arcadia.Space_Invaders
         }
         public virtual void Draw(SpriteBatch spritebatch, GameTime gametime, int pos_x, int pos_y)
         {
-            for (int x = 0; x < 10; x++)
+            for (int i = 0; i < 10; i++)
             {
-                ennemi_tableau[x, 0].Draw(spritebatch,ennemi_tableau[x,0].enn_public, pos_x, pos_y);
-                pos_x = pos_x + 5;
-                
-                
-            }
-            pos_y = pos_y +30;
-
-            for (int x = 0; x < 10; x++)
-            {
-                ennemi_tableau[x, 1].Draw(spritebatch, ennemi_tableau[x, 1].enn_public, pos_x, pos_y);
-                pos_x = pos_x + 5;
-
-            }
-
-            pos_y = pos_y + 30;
-
-            for (int x = 0; x < 10; x++)
-            {
-                ennemi_tableau[x, 2].Draw(spritebatch, ennemi_tableau[x, 2].enn_public, pos_x, pos_y);
-                pos_x = pos_x + 5;
-
-            }
-
-            pos_y = pos_y + 30;
-
-            for (int x = 0; x < 10; x++)
-            {
-                ennemi_tableau[x, 3].Draw(spritebatch, ennemi_tableau[x, 3].enn_public , pos_x, pos_y);
-                pos_x = pos_x + 5;
-
+                for (int j = 0; j < 4; j++) 
+                {
+                    ennemi_tableau[i, j].Draw(spritebatch, ennemi_tableau[i, j].enn_public, encrage_x + i * 28, encrage_y + j * 28);
+                }
+            
             }
         }
 
