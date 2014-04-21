@@ -26,9 +26,7 @@ namespace Arcadia.Space_Invaders
         }
         public virtual void LoadContent(ContentManager content, string type_enn)
         {
-            enn = content.Load<Texture2D>(type_enn);
-            
-           
+            enn = content.Load<Texture2D>(type_enn);  
         }
 
         public virtual void Draw(SpriteBatch spriteBatch,Texture2D ennemi, int pos_x, int pos_y)

@@ -262,6 +262,15 @@
       <Output>C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\MaPolice.xnb</Output>
       <Time>2014-03-10T22:31:34.0722903+01:00</Time>
     </Item>
+    <Item>
+      <Source>SpaceInvaders\ship.png</Source>
+      <Name>SpaceInvaders\ship</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JahMan\New_Arcadia\Arcadia\Arcadia\bin\x86\Debug\Content\SpaceInvaders\ship.xnb</Output>
+      <Time>2014-04-21T15:22:41.5142653+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

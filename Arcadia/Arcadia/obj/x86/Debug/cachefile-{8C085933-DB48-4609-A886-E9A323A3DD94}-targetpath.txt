@@ -27,3 +27,4 @@ Content\SpaceInvaders\ennemi2.xnb
 Content\SpaceInvaders\ennemi3.xnb
 Content\LangueFont.xnb
 Content\MaPolice.xnb
+Content\SpaceInvaders\ship.xnb
